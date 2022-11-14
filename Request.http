@@ -1,0 +1,12 @@
+GET http://localhost:4000/posts
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJUdWFuVHJhbiIsImlhdCI6MTY2ODQ0MzkzOX0.JSMVSgDFMFG8QgKeDw6GsnTxjjBZQgF44S2_hPbb5Qk
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "TuanTran"
+}
+
